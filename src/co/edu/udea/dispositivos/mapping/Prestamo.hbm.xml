@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 10/11/2016 05:01:31 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="co.edu.udea.dispositivos.dto.Prestamo" table="prestamo">
+        <id name="id" type="java.lang.Long">
+            <column name="id" length="10"/>
+            <generator class="increment" />
+        </id>
+        <property name="investigador" type="java.lang.String">
+        	<column name="investigador" length="15"/>
+        </property>
+        <property name="dispositivo" type="java.lang.String">
+        	<column name="dispositivo" length="5"/>
+        </property>
+        <property name="fechaInicio" type="java.util.Date">
+            <column name="fechaInicio" />
+        </property>
+        <property name="fechaFin" type="java.util.Date">
+            <column name="fechaFin" />
+        </property>
+        <property name="estado" type="java.lang.String">
+            <column name="estado" length="12"/>
+        </property>
+    </class>
+</hibernate-mapping>

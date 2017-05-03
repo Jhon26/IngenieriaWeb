@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 10/11/2016 05:03:24 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="co.edu.udea.dispositivos.dto.Usuario" table="usuario">
+        <id name="id" type="java.lang.String">
+            <column name="id" length="15" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombres" type="java.lang.String">
+            <column name="nombres" length="40" />
+        </property>
+        <property name="apellidos" type="java.lang.String">
+            <column name="apellidos" length="40" />
+        </property>
+        <property name="nombreUsuario" type="java.lang.String">
+            <column name="nombreUsuario" length="20" />
+        </property>
+        <property name="contrasena" type="java.lang.String">
+            <column name="contrasena" length="20" />
+        </property>
+        <property name="rol" type="java.lang.String">
+            <column name="rol" length="13"/>
+        </property>
+    </class>
+</hibernate-mapping>

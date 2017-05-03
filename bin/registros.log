@@ -1,0 +1,772 @@
+SpringJUnit4ClassRunner constructor called with [class co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest].
+Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+Retrieved @ContextConfiguration attributes [{name=, value=[], classes=[], loader=interface org.springframework.test.context.ContextLoader, locations=[classpath:configuracion.xml], inheritInitializers=true, inheritLocations=true, initializers=[]}] for declaring class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest].
+Resolved context configuration attributes: [ContextConfigurationAttributes@50cbc42f declaringClass = 'co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest', classes = '{}', locations = '{classpath:configuracion.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Resolving ContextLoader for context configuration attributes [ContextConfigurationAttributes@50cbc42f declaringClass = 'co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest', classes = '{}', locations = '{classpath:configuracion.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Using ContextLoader class [org.springframework.test.context.support.DelegatingSmartContextLoader] for test class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Processing locations and classes for context configuration attributes [ContextConfigurationAttributes@50cbc42f declaringClass = 'co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest', classes = '{}', locations = '{classpath:configuracion.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@50cbc42f declaringClass = 'co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest', classes = '{}', locations = '{classpath:configuracion.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+Processing context initializers for context configuration attributes [ContextConfigurationAttributes@50cbc42f declaringClass = 'co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest', classes = '{}', locations = '{classpath:configuracion.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+@TestExecutionListeners is not present for class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]: using defaults.
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6b2fad11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@79698539, org.springframework.test.context.transaction.TransactionalTestExecutionListener@73f792cf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2ed94a8b]
+Registering TestExecutionListener: org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6b2fad11
+Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextTestExecutionListener@79698539
+Registering TestExecutionListener: org.springframework.test.context.transaction.TransactionalTestExecutionListener@73f792cf
+Registering TestExecutionListener: org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2ed94a8b
+Retrieved @ProfileValueSourceConfiguration [null] for test class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+beforeTestClass(): class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+prepareTestInstance(): instance [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest@35fb3008]
+Performing dependency injection for test context [[DefaultTestContext@7225790e testClass = FuncionalidadesGeneralesTest, testInstance = co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest@35fb3008, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@54a097cc testClass = FuncionalidadesGeneralesTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@54a097cc testClass = FuncionalidadesGeneralesTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@54a097cc testClass = FuncionalidadesGeneralesTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [configuracion.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-4.1.xsd]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.1.xsd
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tx/spring-tx-4.1.xsd]
+Found XML schema [http://www.springframework.org/schema/tx/spring-tx-4.1.xsd] in classpath: org/springframework/transaction/config/spring-tx-4.1.xsd
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd]
+Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.1.xsd
+Loading bean definitions
+Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+Loaded 12 bean definitions from location pattern [classpath:configuracion.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@5ae9a829: startup date [Tue May 02 20:11:19 COT 2017]; root of context hierarchy
+Bean factory for org.springframework.context.support.GenericApplicationContext@5ae9a829: org.springframework.beans.factory.support.DefaultListableBeanFactory@5fdba6f9: defining beans [dataSource,sessionFactory,transactionManager,dispositivoDao,prestamoDao,usuarioDao,funcionalidadesGenerales,funcionalidadesRestringidas,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor]; root of factory hierarchy
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+Getting BeanInfo for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+Caching PropertyDescriptors for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+Found bean property 'exposeProxy' of type [boolean]
+Found bean property 'frozen' of type [boolean]
+Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+Found bean property 'opaque' of type [boolean]
+Found bean property 'optimize' of type [boolean]
+Found bean property 'order' of type [int]
+Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+Found bean property 'proxyTargetClass' of type [boolean]
+Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@358ee631]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@12d4bf7e]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5fdba6f9: defining beans [dataSource,sessionFactory,transactionManager,dispositivoDao,prestamoDao,usuarioDao,funcionalidadesGenerales,funcionalidadesRestringidas,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Creating shared instance of singleton bean 'dataSource'
+Creating instance of bean 'dataSource'
+Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.jdbc.datasource.DriverManagerDataSource]
+Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DriverManagerDataSource]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'connection' of type [java.sql.Connection]
+Found bean property 'connectionProperties' of type [java.util.Properties]
+Found bean property 'driverClassName' of type [java.lang.String]
+Found bean property 'logWriter' of type [java.io.PrintWriter]
+Found bean property 'loginTimeout' of type [int]
+Found bean property 'parentLogger' of type [java.util.logging.Logger]
+Found bean property 'password' of type [java.lang.String]
+Found bean property 'url' of type [java.lang.String]
+Found bean property 'username' of type [java.lang.String]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+Found bean property 'advice' of type [org.aopalliance.aop.Advice]
+Found bean property 'adviceBeanName' of type [java.lang.String]
+Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'classFilter' of type [org.springframework.aop.ClassFilter]
+Found bean property 'order' of type [int]
+Found bean property 'perInstance' of type [boolean]
+Found bean property 'pointcut' of type [org.springframework.aop.Pointcut]
+Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Eagerly caching bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.transaction.annotation.AnnotationTransactionAttributeSource]
+Caching PropertyDescriptors for class [org.springframework.transaction.annotation.AnnotationTransactionAttributeSource]
+Found bean property 'class' of type [java.lang.Class]
+Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'dataSource'
+Creating shared instance of singleton bean 'sessionFactory'
+Creating instance of bean 'sessionFactory'
+Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.orm.hibernate3.LocalSessionFactoryBean]
+Caching PropertyDescriptors for class [org.springframework.orm.hibernate3.LocalSessionFactoryBean]
+Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+Found bean property 'cacheRegionFactory' of type [org.hibernate.cache.RegionFactory]
+Found bean property 'cacheableMappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'collectionCacheStrategies' of type [java.util.Properties]
+Found bean property 'configLocation' of type [org.springframework.core.io.Resource]
+Found bean property 'configLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'configuration' of type [org.hibernate.cfg.Configuration]
+Found bean property 'configurationClass' of type [java.lang.Class]
+Found bean property 'dataSource' of type [javax.sql.DataSource]
+Found bean property 'entityCacheStrategies' of type [java.util.Properties]
+Found bean property 'entityInterceptor' of type [org.hibernate.Interceptor]
+Found bean property 'eventListeners' of type [java.util.Map]
+Found bean property 'exposeTransactionAwareSessionFactory' of type [boolean]
+Found bean property 'filterDefinitions' of type [[Lorg.hibernate.engine.FilterDefinition;]
+Found bean property 'hibernateProperties' of type [java.util.Properties]
+Found bean property 'jdbcExceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+Found bean property 'jtaTransactionManager' of type [javax.transaction.TransactionManager]
+Found bean property 'lobHandler' of type [org.springframework.jdbc.support.lob.LobHandler]
+Found bean property 'mappingDirectoryLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'mappingJarLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'mappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'mappingResources' of type [[Ljava.lang.String;]
+Found bean property 'namingStrategy' of type [org.hibernate.cfg.NamingStrategy]
+Found bean property 'object' of type [org.hibernate.SessionFactory]
+Found bean property 'objectType' of type [java.lang.Class]
+Found bean property 'schemaUpdate' of type [boolean]
+Found bean property 'singleton' of type [boolean]
+Found bean property 'typeDefinitions' of type [[Lorg.springframework.orm.hibernate3.TypeDefinitionBean;]
+Found bean property 'useTransactionAwareDataSource' of type [boolean]
+Returning cached instance of singleton bean 'dataSource'
+Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+Adding type registration boolean -> org.hibernate.type.BooleanType@16d04d3d
+Adding type registration boolean -> org.hibernate.type.BooleanType@16d04d3d
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@16d04d3d
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@74fe5c40
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@57a3af25
+Adding type registration yes_no -> org.hibernate.type.YesNoType@5c33f1a9
+Adding type registration byte -> org.hibernate.type.ByteType@49139829
+Adding type registration byte -> org.hibernate.type.ByteType@49139829
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@49139829
+Adding type registration character -> org.hibernate.type.CharacterType@59662a0b
+Adding type registration char -> org.hibernate.type.CharacterType@59662a0b
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@59662a0b
+Adding type registration short -> org.hibernate.type.ShortType@747ddf94
+Adding type registration short -> org.hibernate.type.ShortType@747ddf94
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@747ddf94
+Adding type registration integer -> org.hibernate.type.IntegerType@6cf0e0ba
+Adding type registration int -> org.hibernate.type.IntegerType@6cf0e0ba
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6cf0e0ba
+Adding type registration long -> org.hibernate.type.LongType@74f0ea28
+Adding type registration long -> org.hibernate.type.LongType@74f0ea28
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@74f0ea28
+Adding type registration float -> org.hibernate.type.FloatType@55b699ef
+Adding type registration float -> org.hibernate.type.FloatType@55b699ef
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@55b699ef
+Adding type registration double -> org.hibernate.type.DoubleType@3023df74
+Adding type registration double -> org.hibernate.type.DoubleType@3023df74
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3023df74
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@5c6648b0
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@5c6648b0
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7c7b252e
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7c7b252e
+Adding type registration string -> org.hibernate.type.StringType@48f2bd5b
+Adding type registration java.lang.String -> org.hibernate.type.StringType@48f2bd5b
+Adding type registration url -> org.hibernate.type.UrlType@55141def
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@55141def
+Adding type registration date -> org.hibernate.type.DateType@73a1e9a9
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@73a1e9a9
+Adding type registration time -> org.hibernate.type.TimeType@3e694b3f
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3e694b3f
+Adding type registration timestamp -> org.hibernate.type.TimestampType@515c6049
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@515c6049
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@515c6049
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@443118b0
+Adding type registration calendar -> org.hibernate.type.CalendarType@30c15d8b
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@30c15d8b
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@30c15d8b
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@51399530
+Adding type registration locale -> org.hibernate.type.LocaleType@28701274
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@28701274
+Adding type registration currency -> org.hibernate.type.CurrencyType@175c2241
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@175c2241
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@7c7a06ec
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7c7a06ec
+Adding type registration class -> org.hibernate.type.ClassType@3c46e67a
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3c46e67a
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@54d9d12d
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@54d9d12d
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@702657cc
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@2d1ef81a
+Adding type registration binary -> org.hibernate.type.BinaryType@4c12331b
+Adding type registration byte[] -> org.hibernate.type.BinaryType@4c12331b
+Adding type registration [B -> org.hibernate.type.BinaryType@4c12331b
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1573f9fc
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1573f9fc
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1573f9fc
+Adding type registration image -> org.hibernate.type.ImageType@6a78afa0
+Adding type registration characters -> org.hibernate.type.CharArrayType@5aa9e4eb
+Adding type registration char[] -> org.hibernate.type.CharArrayType@5aa9e4eb
+Adding type registration [C -> org.hibernate.type.CharArrayType@5aa9e4eb
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@217ed35e
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@217ed35e
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@217ed35e
+Adding type registration text -> org.hibernate.type.TextType@6743e411
+Adding type registration blob -> org.hibernate.type.BlobType@bcec361
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@bcec361
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3d285d7e
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@367ffa75
+Adding type registration clob -> org.hibernate.type.ClobType@6ad82709
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6ad82709
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@8297b3a
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@4c178a76
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@544fa968
+Adding type registration serializable -> org.hibernate.type.SerializableType@24313fcc
+Adding type registration object -> org.hibernate.type.ObjectType@7c9d8e2
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@7c9d8e2
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2002fc1d
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@69453e37
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6f4a47c7
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@ae13544
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3d34d211
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7dc0f706
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4009e306
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@43c1b556
+Hibernate Commons Annotations 3.2.0.Final
+Hibernate 3.6.10.Final
+hibernate.properties not found
+Bytecode provider name : javassist
+using JDK 1.4 java.sql.Timestamp handling
+Registering IdentifierGenerator strategy [uuid2] -> [class org.hibernate.id.UUIDGenerator]
+Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+Processing hbm.xml files
+Mapping class: co.edu.udea.dispositivos.dto.Dispositivo -> dispositivo
+Mapped property: id -> id
+Mapped property: tipo -> tipo
+Mapped property: estado -> estado
+Mapping class: co.edu.udea.dispositivos.dto.Prestamo -> prestamo
+Mapped property: id -> id
+Mapped property: investigador -> investigador
+Mapped property: dispositivo -> dispositivo
+Mapped property: fechaInicio -> fechaInicio
+Mapped property: fechaFin -> fechaFin
+Mapped property: estado -> estado
+Mapping class: co.edu.udea.dispositivos.dto.Usuario -> usuario
+Mapped property: id -> id
+Mapped property: nombres -> nombres
+Mapped property: apellidos -> apellidos
+Mapped property: nombreUsuario -> nombreUsuario
+Mapped property: contrasena -> contrasena
+Mapped property: rol -> rol
+Process annotated classes
+processing fk mappings (*ToOne and JoinedSubclass)
+processing extends queue
+processing extends queue
+processing collection mappings
+processing native query and ResultSetMapping mappings
+processing association property references
+processing foreign key constraints
+Hibernate Validator not found: ignoring
+Building new Hibernate SessionFactory
+Preparing to build session factory with filters : {}
+Processing hbm.xml files
+Process annotated classes
+processing fk mappings (*ToOne and JoinedSubclass)
+processing extends queue
+processing extends queue
+processing collection mappings
+processing native query and ResultSetMapping mappings
+processing association property references
+processing foreign key constraints
+Legacy Validator not present in classpath, ignoring event listener registration
+Search not present in classpath, ignoring event listener registration.
+Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/prestamodispositivos]
+Using dialect: org.hibernate.dialect.MySQLDialect
+Database ->
+       name : MySQL
+    version : 5.5.55
+      major : 5
+      minor : 5
+Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+Wrap result sets: disabled
+JDBC3 getGeneratedKeys(): enabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Order SQL inserts for batching: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Echoing all SQL to stdout
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+Named query checking : enabled
+Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+building session factory
+Statistics initialized [enabled=false]}
+Adding type registration boolean -> org.hibernate.type.BooleanType@16d04d3d
+Adding type registration boolean -> org.hibernate.type.BooleanType@16d04d3d
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@16d04d3d
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@74fe5c40
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@57a3af25
+Adding type registration yes_no -> org.hibernate.type.YesNoType@5c33f1a9
+Adding type registration byte -> org.hibernate.type.ByteType@49139829
+Adding type registration byte -> org.hibernate.type.ByteType@49139829
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@49139829
+Adding type registration character -> org.hibernate.type.CharacterType@59662a0b
+Adding type registration char -> org.hibernate.type.CharacterType@59662a0b
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@59662a0b
+Adding type registration short -> org.hibernate.type.ShortType@747ddf94
+Adding type registration short -> org.hibernate.type.ShortType@747ddf94
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@747ddf94
+Adding type registration integer -> org.hibernate.type.IntegerType@6cf0e0ba
+Adding type registration int -> org.hibernate.type.IntegerType@6cf0e0ba
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6cf0e0ba
+Adding type registration long -> org.hibernate.type.LongType@74f0ea28
+Adding type registration long -> org.hibernate.type.LongType@74f0ea28
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@74f0ea28
+Adding type registration float -> org.hibernate.type.FloatType@55b699ef
+Adding type registration float -> org.hibernate.type.FloatType@55b699ef
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@55b699ef
+Adding type registration double -> org.hibernate.type.DoubleType@3023df74
+Adding type registration double -> org.hibernate.type.DoubleType@3023df74
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3023df74
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@5c6648b0
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@5c6648b0
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7c7b252e
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7c7b252e
+Adding type registration string -> org.hibernate.type.StringType@48f2bd5b
+Adding type registration java.lang.String -> org.hibernate.type.StringType@48f2bd5b
+Adding type registration url -> org.hibernate.type.UrlType@55141def
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@55141def
+Adding type registration date -> org.hibernate.type.DateType@73a1e9a9
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@73a1e9a9
+Adding type registration time -> org.hibernate.type.TimeType@3e694b3f
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3e694b3f
+Adding type registration timestamp -> org.hibernate.type.TimestampType@515c6049
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@515c6049
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@515c6049
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@443118b0
+Adding type registration calendar -> org.hibernate.type.CalendarType@30c15d8b
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@30c15d8b
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@30c15d8b
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@51399530
+Adding type registration locale -> org.hibernate.type.LocaleType@28701274
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@28701274
+Adding type registration currency -> org.hibernate.type.CurrencyType@175c2241
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@175c2241
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@7c7a06ec
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7c7a06ec
+Adding type registration class -> org.hibernate.type.ClassType@3c46e67a
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3c46e67a
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@54d9d12d
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@54d9d12d
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@702657cc
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@2d1ef81a
+Adding type registration binary -> org.hibernate.type.BinaryType@4c12331b
+Adding type registration byte[] -> org.hibernate.type.BinaryType@4c12331b
+Adding type registration [B -> org.hibernate.type.BinaryType@4c12331b
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1573f9fc
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1573f9fc
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1573f9fc
+Adding type registration image -> org.hibernate.type.ImageType@6a78afa0
+Adding type registration characters -> org.hibernate.type.CharArrayType@5aa9e4eb
+Adding type registration char[] -> org.hibernate.type.CharArrayType@5aa9e4eb
+Adding type registration [C -> org.hibernate.type.CharArrayType@5aa9e4eb
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@217ed35e
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@217ed35e
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@217ed35e
+Adding type registration text -> org.hibernate.type.TextType@6743e411
+Adding type registration blob -> org.hibernate.type.BlobType@bcec361
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@bcec361
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3d285d7e
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@367ffa75
+Adding type registration clob -> org.hibernate.type.ClobType@6ad82709
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6ad82709
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@8297b3a
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@4c178a76
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@544fa968
+Adding type registration serializable -> org.hibernate.type.SerializableType@24313fcc
+Adding type registration object -> org.hibernate.type.ObjectType@7c9d8e2
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@7c9d8e2
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6ca18a14
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@c667f46
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@51bd8b5c
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7b50df34
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1b410b60
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2462cb01
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@19b843ba
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@64ec96c6
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7dc19a70
+Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@8297b3a
+Adding type registration clob -> org.hibernate.type.ClobType@24c1b2d2
+Type registration [clob] overrides previous : org.hibernate.type.ClobType@6ad82709
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@24c1b2d2
+Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@6ad82709
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@1e4f4a5c
+Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@544fa968
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@508dec2b
+Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@4c178a76
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@3e0e1046
+Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@367ffa75
+Adding type registration blob -> org.hibernate.type.BlobType@41330d4f
+Type registration [blob] overrides previous : org.hibernate.type.BlobType@bcec361
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@41330d4f
+Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@bcec361
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1b66c0fb
+Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@3d285d7e
+Session factory constructed with filter configurations : {}
+instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_131\bin, java.vm.version=25.131-b11, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CO, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\JHON\workspace\PrestamoDispositivos, java.runtime.version=1.8.0_131-b11, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.current_session_context_class=org.springframework.orm.hibernate3.SpringSessionContext, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_131\lib\endorsed, os.arch=amd64, hibernate.check_nullability=false, java.io.tmpdir=C:\Users\JHON\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jre1.8.0_131\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\windows\System32;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.transaction.factory_class=org.springframework.orm.hibernate3.SpringTransactionFactory, os.version=10.0, user.home=C:\Users\JHON, user.timezone=America/Bogota, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.8, file.encoding=Cp1252, user.name=JHON, java.class.path=C:\Users\JHON\workspace\PrestamoDispositivos\bin;C:\Users\JHON\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\Users\JHON\.p2\pool\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\antlr-2.7.6.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\aopalliance-1.0.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\commons-collections-3.1.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\commons-logging.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\dom4j-1.6.1.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\hibernate3.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\javassist-3.12.0.GA.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\jta-1.1.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\log4j-1.2.17.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\mysql-connector-java-5.1.22-bin.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\slf4j-api-1.6.1.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\slf4j-log4j12-1.7.2.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\spring-aop-4.1.6.RELEASE.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\spring-beans-4.1.6.RELEASE.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\spring-context-4.1.6.RELEASE.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\spring-core-4.1.6.RELEASE.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\spring-expression-4.1.6.RELEASE.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\spring-jdbc-4.1.6.RELEASE.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\spring-orm-4.1.6.RELEASE.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\spring-test-4.1.6.RELEASE.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\spring-tx-4.1.6.RELEASE.jar;C:\Users\JHON\workspace\PrestamoDispositivos\libs\spring-web-4.1.6.RELEASE.jar;/C:/Users/JHON/eclipse/jee-neon3/eclipse/configuration/org.eclipse.osgi/389/0/.cp/;/C:/Users/JHON/eclipse/jee-neon3/eclipse/configuration/org.eclipse.osgi/388/0/.cp/, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, javax.persistence.validation.mode=none, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=C:\Program Files\Java\jre1.8.0_131, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 50116 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Oracle Corporation, user.language=es, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_131, java.ext.dirs=C:\Program Files\Java\jre1.8.0_131\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.connection.provider_class=org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64}
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Static SQL for entity: co.edu.udea.dispositivos.dto.Dispositivo
+ Version select: select id from dispositivo where id =?
+ Snapshot select: select dispositiv_.id, dispositiv_.tipo as tipo0_, dispositiv_.estado as estado0_ from dispositivo dispositiv_ where dispositiv_.id=?
+ Insert 0: insert into dispositivo (tipo, estado, id) values (?, ?, ?)
+ Update 0: update dispositivo set tipo=?, estado=? where id=?
+ Delete 0: delete from dispositivo where id=?
+Static SQL for entity: co.edu.udea.dispositivos.dto.Prestamo
+ Version select: select id from prestamo where id =?
+ Snapshot select: select prestamo_.id, prestamo_.investigador as investig2_1_, prestamo_.dispositivo as disposit3_1_, prestamo_.fechaInicio as fechaIni4_1_, prestamo_.fechaFin as fechaFin1_, prestamo_.estado as estado1_ from prestamo prestamo_ where prestamo_.id=?
+ Insert 0: insert into prestamo (investigador, dispositivo, fechaInicio, fechaFin, estado, id) values (?, ?, ?, ?, ?, ?)
+ Update 0: update prestamo set investigador=?, dispositivo=?, fechaInicio=?, fechaFin=?, estado=? where id=?
+ Delete 0: delete from prestamo where id=?
+Static SQL for entity: co.edu.udea.dispositivos.dto.Usuario
+ Version select: select id from usuario where id =?
+ Snapshot select: select usuario_.id, usuario_.nombres as nombres2_, usuario_.apellidos as apellidos2_, usuario_.nombreUsuario as nombreUs4_2_, usuario_.contrasena as contrasena2_, usuario_.rol as rol2_ from usuario usuario_ where usuario_.id=?
+ Insert 0: insert into usuario (nombres, apellidos, nombreUsuario, contrasena, rol, id) values (?, ?, ?, ?, ?, ?)
+ Update 0: update usuario set nombres=?, apellidos=?, nombreUsuario=?, contrasena=?, rol=? where id=?
+ Delete 0: delete from usuario where id=?
+Static select for entity co.edu.udea.dispositivos.dto.Dispositivo [NONE]: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=?
+Static select for entity co.edu.udea.dispositivos.dto.Dispositivo [READ]: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=?
+Static select for entity co.edu.udea.dispositivos.dto.Dispositivo [UPGRADE]: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Dispositivo [UPGRADE_NOWAIT]: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Dispositivo [FORCE]: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Dispositivo [PESSIMISTIC_READ]: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=? lock in share mode
+Static select for entity co.edu.udea.dispositivos.dto.Dispositivo [PESSIMISTIC_WRITE]: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Dispositivo [PESSIMISTIC_FORCE_INCREMENT]: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Dispositivo [OPTIMISTIC]: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=?
+Static select for entity co.edu.udea.dispositivos.dto.Dispositivo [OPTIMISTIC_FORCE_INCREMENT]: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=?
+Static select for action ACTION_MERGE on entity co.edu.udea.dispositivos.dto.Dispositivo: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.dispositivos.dto.Dispositivo: select dispositiv0_.id as id0_0_, dispositiv0_.tipo as tipo0_0_, dispositiv0_.estado as estado0_0_ from dispositivo dispositiv0_ where dispositiv0_.id=?
+Static select for entity co.edu.udea.dispositivos.dto.Prestamo [NONE]: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=?
+Static select for entity co.edu.udea.dispositivos.dto.Prestamo [READ]: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=?
+Static select for entity co.edu.udea.dispositivos.dto.Prestamo [UPGRADE]: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Prestamo [UPGRADE_NOWAIT]: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Prestamo [FORCE]: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Prestamo [PESSIMISTIC_READ]: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=? lock in share mode
+Static select for entity co.edu.udea.dispositivos.dto.Prestamo [PESSIMISTIC_WRITE]: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Prestamo [PESSIMISTIC_FORCE_INCREMENT]: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Prestamo [OPTIMISTIC]: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=?
+Static select for entity co.edu.udea.dispositivos.dto.Prestamo [OPTIMISTIC_FORCE_INCREMENT]: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=?
+Static select for action ACTION_MERGE on entity co.edu.udea.dispositivos.dto.Prestamo: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.dispositivos.dto.Prestamo: select prestamo0_.id as id1_0_, prestamo0_.investigador as investig2_1_0_, prestamo0_.dispositivo as disposit3_1_0_, prestamo0_.fechaInicio as fechaIni4_1_0_, prestamo0_.fechaFin as fechaFin1_0_, prestamo0_.estado as estado1_0_ from prestamo prestamo0_ where prestamo0_.id=?
+Static select for entity co.edu.udea.dispositivos.dto.Usuario [NONE]: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=?
+Static select for entity co.edu.udea.dispositivos.dto.Usuario [READ]: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=?
+Static select for entity co.edu.udea.dispositivos.dto.Usuario [UPGRADE]: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Usuario [UPGRADE_NOWAIT]: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Usuario [FORCE]: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Usuario [PESSIMISTIC_READ]: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=? lock in share mode
+Static select for entity co.edu.udea.dispositivos.dto.Usuario [PESSIMISTIC_WRITE]: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Usuario [PESSIMISTIC_FORCE_INCREMENT]: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=? for update
+Static select for entity co.edu.udea.dispositivos.dto.Usuario [OPTIMISTIC]: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=?
+Static select for entity co.edu.udea.dispositivos.dto.Usuario [OPTIMISTIC_FORCE_INCREMENT]: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=?
+Static select for action ACTION_MERGE on entity co.edu.udea.dispositivos.dto.Usuario: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=?
+Static select for action ACTION_REFRESH on entity co.edu.udea.dispositivos.dto.Usuario: select usuario0_.id as id2_0_, usuario0_.nombres as nombres2_0_, usuario0_.apellidos as apellidos2_0_, usuario0_.nombreUsuario as nombreUs4_2_0_, usuario0_.contrasena as contrasena2_0_, usuario0_.rol as rol2_0_ from usuario usuario0_ where usuario0_.id=?
+initializing class SessionFactoryObjectFactory
+registered: c46c4c1b-8be3-42df-be51-d6416042b9ea (unnamed)
+Not binding factory to JNDI, no JNDI name configured
+instantiated session factory
+Checking 0 named HQL queries
+Checking 0 named SQL queries
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'sessionFactory'
+Creating shared instance of singleton bean 'transactionManager'
+Creating instance of bean 'transactionManager'
+Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.orm.hibernate3.HibernateTransactionManager]
+Caching PropertyDescriptors for class [org.springframework.orm.hibernate3.HibernateTransactionManager]
+Found bean property 'autodetectDataSource' of type [boolean]
+Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'dataSource' of type [javax.sql.DataSource]
+Found bean property 'defaultTimeout' of type [int]
+Found bean property 'earlyFlushBeforeCommit' of type [boolean]
+Found bean property 'entityInterceptor' of type [org.hibernate.Interceptor]
+Found bean property 'entityInterceptorBeanName' of type [java.lang.String]
+Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+Found bean property 'hibernateManagedSession' of type [boolean]
+Found bean property 'jdbcExceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+Found bean property 'nestedTransactionAllowed' of type [boolean]
+Found bean property 'prepareConnection' of type [boolean]
+Found bean property 'resourceFactory' of type [java.lang.Object]
+Found bean property 'rollbackOnCommitFailure' of type [boolean]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Found bean property 'transactionSynchronization' of type [int]
+Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+Found bean property 'validateExistingTransaction' of type [boolean]
+Returning cached instance of singleton bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'dataSource'
+Invoking afterPropertiesSet() on bean with name 'transactionManager'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'transactionManager'
+Creating shared instance of singleton bean 'dispositivoDao'
+Creating instance of bean 'dispositivoDao'
+Eagerly caching bean 'dispositivoDao' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.dispositivos.dao.hibernate.DispositivoDaoHibernate]
+Caching PropertyDescriptors for class [co.edu.udea.dispositivos.dao.hibernate.DispositivoDaoHibernate]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Returning cached instance of singleton bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'dispositivoDao'
+Creating shared instance of singleton bean 'prestamoDao'
+Creating instance of bean 'prestamoDao'
+Eagerly caching bean 'prestamoDao' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.dispositivos.dao.hibernate.PrestamoDaoHibernate]
+Caching PropertyDescriptors for class [co.edu.udea.dispositivos.dao.hibernate.PrestamoDaoHibernate]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Returning cached instance of singleton bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'prestamoDao'
+Creating shared instance of singleton bean 'usuarioDao'
+Creating instance of bean 'usuarioDao'
+Eagerly caching bean 'usuarioDao' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.dispositivos.dao.hibernate.UsuarioDaoHibernate]
+Caching PropertyDescriptors for class [co.edu.udea.dispositivos.dao.hibernate.UsuarioDaoHibernate]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Returning cached instance of singleton bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'usuarioDao'
+Creating shared instance of singleton bean 'funcionalidadesGenerales'
+Creating instance of bean 'funcionalidadesGenerales'
+Eagerly caching bean 'funcionalidadesGenerales' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.dispositivos.bl.impl.FuncionalidadesGeneralesImpl]
+Caching PropertyDescriptors for class [co.edu.udea.dispositivos.bl.impl.FuncionalidadesGeneralesImpl]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'dispositivoDao' of type [co.edu.udea.dispositivos.dao.DispositivoDao]
+Found bean property 'prestamoDao' of type [co.edu.udea.dispositivos.dao.PrestamoDao]
+Found bean property 'usuarioDao' of type [co.edu.udea.dispositivos.dao.UsuarioDao]
+Returning cached instance of singleton bean 'usuarioDao'
+Returning cached instance of singleton bean 'dispositivoDao'
+Returning cached instance of singleton bean 'prestamoDao'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Adding transactional method 'FuncionalidadesGeneralesImpl.loguear' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Creating implicit proxy for bean 'funcionalidadesGenerales' with 0 common interceptors and 1 specific interceptors
+Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [co.edu.udea.dispositivos.bl.impl.FuncionalidadesGeneralesImpl@13ad5cd3]
+Finished creating instance of bean 'funcionalidadesGenerales'
+Creating shared instance of singleton bean 'funcionalidadesRestringidas'
+Creating instance of bean 'funcionalidadesRestringidas'
+Eagerly caching bean 'funcionalidadesRestringidas' to allow for resolving potential circular references
+Getting BeanInfo for class [co.edu.udea.dispositivos.bl.impl.FuncionalidadesRestringidasImpl]
+Caching PropertyDescriptors for class [co.edu.udea.dispositivos.bl.impl.FuncionalidadesRestringidasImpl]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'dispositivoDao' of type [co.edu.udea.dispositivos.dao.DispositivoDao]
+Found bean property 'prestamoDao' of type [co.edu.udea.dispositivos.dao.PrestamoDao]
+Found bean property 'usuarioDao' of type [co.edu.udea.dispositivos.dao.UsuarioDao]
+Returning cached instance of singleton bean 'usuarioDao'
+Returning cached instance of singleton bean 'prestamoDao'
+Returning cached instance of singleton bean 'dispositivoDao'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Adding transactional method 'FuncionalidadesRestringidasImpl.eliminarInvestigador' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Creating implicit proxy for bean 'funcionalidadesRestringidas' with 0 common interceptors and 1 specific interceptors
+Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [co.edu.udea.dispositivos.bl.impl.FuncionalidadesRestringidasImpl@3fed2870]
+Finished creating instance of bean 'funcionalidadesRestringidas'
+Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+Found bean property 'transactionAttributeSources' of type [[Lorg.springframework.transaction.interceptor.TransactionAttributeSource;]
+Found bean property 'transactionAttributes' of type [java.util.Properties]
+Found bean property 'transactionManager' of type [org.springframework.transaction.PlatformTransactionManager]
+Found bean property 'transactionManagerBeanName' of type [java.lang.String]
+Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@2c4d1ac]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Publishing event in org.springframework.context.support.GenericApplicationContext@5ae9a829: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.GenericApplicationContext@5ae9a829: startup date [Tue May 02 20:11:19 COT 2017]; root of context hierarchy]
+getProperty("spring.liveBeansView.mbeanDomain", String)
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+Storing ApplicationContext in cache under key [[MergedContextConfiguration@54a097cc testClass = FuncionalidadesGeneralesTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+Spring test ApplicationContext cache statistics: [ContextCache@45312be2 size = 1, hitCount = 0, missCount = 1, parentContextCount = 0]
+Getting BeanInfo for class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Caching PropertyDescriptors for class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Found bean property 'class' of type [java.lang.Class]
+Processing injected element of bean 'co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest': AutowiredFieldElement for private co.edu.udea.dispositivos.bl.FuncionalidadesGenerales co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest.funcionalidadesGenerales
+Returning cached instance of singleton bean 'funcionalidadesGenerales'
+Autowiring by type from bean name 'co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest' to bean named 'funcionalidadesGenerales'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+beforeTestMethod(): instance [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest@35fb3008], method [public void co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest.testLoguear()]
+Returning cached instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Returning cached instance of singleton bean 'transactionManager'
+Creating new transaction with name [co.edu.udea.dispositivos.bl.impl.FuncionalidadesGeneralesImpl.loguear]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+opened session at timestamp: 14937738824
+Opened new Session [org.hibernate.impl.SessionImpl@38831718] for Hibernate transaction
+Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@38831718]
+begin
+opening JDBC connection
+Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/prestamodispositivos]
+current autocommit status: true
+disabling autocommit
+Exposing Hibernate transaction as JDBC transaction [com.mysql.jdbc.JDBC4Connection@46944ca9]
+Bound value [org.springframework.jdbc.datasource.ConnectionHolder@63798ca7] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@22bac7bc] to thread [main]
+Bound value [org.springframework.orm.hibernate3.SessionHolder@22875539] for key [org.hibernate.impl.SessionFactoryImpl@4612b856] to thread [main]
+Initializing transaction synchronization
+Getting transaction for [co.edu.udea.dispositivos.bl.impl.FuncionalidadesGeneralesImpl.loguear]
+Retrieved value [org.springframework.orm.hibernate3.SessionHolder@22875539] for key [org.hibernate.impl.SessionFactoryImpl@4612b856] bound to thread [main]
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+select this_.id as id2_0_, this_.nombres as nombres2_0_, this_.apellidos as apellidos2_0_, this_.nombreUsuario as nombreUs4_2_0_, this_.contrasena as contrasena2_0_, this_.rol as rol2_0_ from usuario this_ where this_.nombreUsuario=?
+about to open ResultSet (open ResultSets: 0, globally: 0)
+result row: EntityKey[co.edu.udea.dispositivos.dto.Usuario#10]
+about to close ResultSet (open ResultSets: 1, globally: 1)
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+resolving associations for [co.edu.udea.dispositivos.dto.Usuario#10]
+done materializing entity [co.edu.udea.dispositivos.dto.Usuario#10]
+initializing non-lazy collections
+Completing transaction for [co.edu.udea.dispositivos.bl.impl.FuncionalidadesGeneralesImpl.loguear]
+Triggering beforeCommit synchronization
+Triggering beforeCompletion synchronization
+Initiating transaction commit
+Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@38831718]
+commit
+processing flush-time cascades
+dirty checking collections
+Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+listing entities:
+co.edu.udea.dispositivos.dto.Usuario{apellidos=Bolivar, contrasena=123456, id=10, nombreUsuario=bbolivar, rol=investigador, nombres=Bairon}
+re-enabling autocommit
+committed JDBC Connection
+transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+Triggering afterCommit synchronization
+Triggering afterCompletion synchronization
+Clearing transaction synchronization
+Removed value [org.springframework.orm.hibernate3.SessionHolder@22875539] for key [org.hibernate.impl.SessionFactoryImpl@4612b856] from thread [main]
+Removed value [org.springframework.jdbc.datasource.ConnectionHolder@63798ca7] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@22bac7bc] from thread [main]
+Closing Hibernate Session [org.hibernate.impl.SessionImpl@38831718] after transaction
+Closing Hibernate Session
+releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+afterTestMethod(): instance [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest@35fb3008], method [public void co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest.testLoguear()], exception [null]
+After test method: context [DefaultTestContext@7225790e testClass = FuncionalidadesGeneralesTest, testInstance = co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest@35fb3008, testMethod = testLoguear@FuncionalidadesGeneralesTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@54a097cc testClass = FuncionalidadesGeneralesTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class dirties context [false], class mode [null], method dirties context [false].
+afterTestClass(): class [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+After test class: context [DefaultTestContext@7225790e testClass = FuncionalidadesGeneralesTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@54a097cc testClass = FuncionalidadesGeneralesTest, locations = '{classpath:configuracion.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], dirtiesContext [false].
+Closing org.springframework.context.support.GenericApplicationContext@5ae9a829: startup date [Tue May 02 20:11:19 COT 2017]; root of context hierarchy
+Publishing event in org.springframework.context.support.GenericApplicationContext@5ae9a829: org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.GenericApplicationContext@5ae9a829: startup date [Tue May 02 20:11:19 COT 2017]; root of context hierarchy]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5fdba6f9: defining beans [dataSource,sessionFactory,transactionManager,dispositivoDao,prestamoDao,usuarioDao,funcionalidadesGenerales,funcionalidadesRestringidas,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Retrieved dependent beans for bean 'funcionalidadesGenerales': [co.edu.udea.dispositivos.bl.impl.test.FuncionalidadesGeneralesTest]
+Invoking destroy() on bean with name 'sessionFactory'
+Closing Hibernate SessionFactory
+closing
